@@ -1,0 +1,5 @@
+symchk/__pycache__/
+symchk/symcache/
+symchk/*.log
+symcache/
+*.log

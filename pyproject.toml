@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "symchk"
+version = "0.2.0"
+description = "Microsoft symbols downloader"
+authors = ["Charles PAULET"]
+maintainers = ["Charles PAULET"]
+readme = "README.md"
+keywords = [
+    "symchk",
+    "symbols",
+    "pdb"
+]
+
+[tool.poetry.scripts]
+symchk = "symchk.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pdbparse = "^1.5"
+pefile = "^2021.5.24"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
