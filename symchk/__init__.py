@@ -22,6 +22,7 @@ import symchk.parallel
 DEFAULT_SYMBOLS_SERVERS = [
     "http://msdl.microsoft.com/download/symbols",
     # "http://symbols.mozilla.org/",
+    # "https://chromium-browser-symsrv.commondatastorage.googleapis.com",
 ]
 
 
