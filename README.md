@@ -157,6 +157,10 @@ You can use the `-o` option to select an output directory.
 * [pdbparse][2]
 * [cabextract][3]
 
+## See also
+
+* https://blog.google/threat-analysis-group/active-north-korean-campaign-targeting-security-researchers/
+
 [1]: https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions
 [2]: https://github.com/moyix/pdbparse
 [3]: http://www.cabextract.org.uk/
